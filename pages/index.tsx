@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 
 const Home = () => (
   <div>
@@ -13,9 +13,7 @@ const Home = () => (
 
     <div className="hero">
       <h1 className="title">Welcome to Next!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
+      <p className="description">Custom Build.</p>
 
       <div className="row">
         <Link href="https://github.com/zeit/next.js#getting-started">
