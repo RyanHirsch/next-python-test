@@ -1,4 +1,4 @@
-from flask import Flask, Response, jsonify
+from flask import Flask, Response
 from werkzeug.contrib.fixers import ProxyFix
 import json
 
